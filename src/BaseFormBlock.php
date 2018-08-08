@@ -231,7 +231,10 @@ abstract class BaseFormBlock extends PhpBlock
     {
         $mail = Yii::$app->mail;
 
-        $html = "<p>" . Module::t('block.form.mail.body') . ' - ' . Url::base(true) . ' - ' . Module::t('block.form.mail.time') . date("d.m.Y - H:i") . "</p>";
+        $html = "<p>" . Module::t('block.form.mail.body') . "</p>";
+        $html .= "<p>" . Module::t('block.form.mail.website') . Url::base(true) . "</p>";
+        if($this->name()) $html .= "<p>" . Module::t('block.form.mail.form_name') . '<b>' . $this->name() . '</b></p>';
+        $html .= "<p>" . Module::t('block.form.mail.submission_time') . date("d.m.Y - H:i") . "</p>";
 
         $responderEmail = "";
         $responderName = "";

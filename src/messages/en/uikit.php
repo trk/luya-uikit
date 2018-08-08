@@ -20,6 +20,9 @@ return [
     'block.form.mail.subject' => 'You have a form submission from your website.',
     'block.form.mail.body' => 'You have received an email via form submission, from your website.',
     'block.form.mail.time' => 'Time: ',
+    'block.form.mail.website' => 'Website: ',
+    'block.form.mail.form_name' => 'Form Name: ',
+    'block.form.mail.submission_time' => 'Submission Time: ',
 
     'block.form.label.name' => 'Name',
     'block.form.placeholder.name' => 'Your name',

@@ -20,6 +20,9 @@ return [
     'block.form.mail.subject' => 'Web sitenizden form gönderiminiz var.',
     'block.form.mail.body' => 'Web sitenizden form gönderimi yoluyla bir e-posta aldınız.',
     'block.form.mail.time' => 'Zaman: ',
+    'block.form.mail.website' => 'İnternet Sayfası: ',
+    'block.form.mail.form_name' => 'Form Adı: ',
+    'block.form.mail.submission_time' => 'Gönderim Zamanı: ',
 
     'block.form.label.name' => 'Ad',
     'block.form.placeholder.name' => 'Adınız',
