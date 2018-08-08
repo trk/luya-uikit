@@ -26,9 +26,9 @@
 + Image
 + Layout Section
 + Layout 1 Column
-+ Layout 2 Column
-+ Layout 3 Column
-+ Layout 4 Column
++ Layout 2 Columns
++ Layout 3 Columns
++ Layout 4 Columns
 + List
 + Map
 + Overlay
