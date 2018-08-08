@@ -1,0 +1,37 @@
+{
+    "name": "trk/luya-uikit",
+    "description": "Luya Uikit 3 Blocks",
+    "type" : "luya-extension",
+    "keywords" : ["luya-blocks", "uikit", "luya"],
+    "license": "MIT",
+    "homepage" : "https://altivebir.com",
+    "authors": [
+        {
+            "name": "Iskender TOTOĞLU",
+            "email": "totoglu@gmail.com",
+            "homepage" : "https://github.com/trk"
+        }
+    ],
+    "support" : {
+        "issues" : "https://github.com/trk/luya-uikit/issues"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "trk\\uikit\\" : "src/",
+            "trk\\uikit\\tests\\" : "tests/"
+        }
+    },
+    "extra": {
+        "luya" : {
+            "blocks" : [
+                "src/blocks"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require-dev": {
+        "luyadev/luya-testsuite": "~1.0.6"
+    }
+}
